@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap');
+body{
+  font-family: 'Mulish', sans-serif;
+}
+
+.harita iframe{
+  width: 100%;
+  height: 100%;
+}
+.logo{
+  height: 35px;
+  width: 120px;
+  object-fit: contain;
+}
+
+.hero_logo{
+  aspect-ratio: 16/10;
+}
+
+.slider_img{
+  aspect-ratio: 16/11;
+  object-fit: cover;
+}
+.slider_ana{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 16/5;
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+.capture{
+  display: flex;
+  height: 450px;
+  align-items: center;
+}
+.over_slide::before{
+ position: absolute;
+  z-index: -1;
+  background-color: gray;
+  top: 0px;
+  content: "";
+  opacity: 0.55;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.icon_hizmet{
+  width: 50px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.icon_sosyal{
+  width: 25px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+:root {
+  --primary-color: #fdb900;
+}
+
+.bg_sari {
+  background-color: var(--primary-color);
+}
+.c-sari {
+  color: var(--primary-color);
+}
+
+.carausel_detay {
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+}
+
+.bg_mavi {
+  background-color: #0e2b5c;
+}
+.c_mavi {
+  color: #0e2b5c;
+}
+
+.footer_color {
+  background-color: #081e45;
+}
+
+.a_icon {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+}
+
+.menu_link:hover {
+  color: #fdb900 !important;
+  text-decoration: 450ms;
+}
+
+.slider_div {
+  z-index: 5000;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.swiper {
+  width: 100%;
+}
+
+
+.swiper-button-prev {
+  color: white;
+}
+
+.swiper-button-next {
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .swiper {
+    height: 150px;
+  }
+  .capture{
+    display: none;
+  }
+}
+
+.hakkimizda {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-slide {
+  cursor: pointer;
+}
+
+.hizmet_eft:hover {
+  border-color: #fdb900 !important;
+  transition-duration: 350ms;
+}
+
+.hizmet_eft:hover span {
+  color: #fdb900;
+  transition-duration: 350ms;
+}
+
+.columcunt {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+}
+
+.blog {
+  height: auto;
+}
+
+.bg_hizmet {
+  background-image: url("http://7oroof.com/demos/eteon/assets/images/backgrounds/map.png");
+  background-size: cover;
+  background-position: center center;
+  background-color: #f9f9f9;
+}
+
+.blog .swiper-slide {
+  cursor: context-menu;
+}

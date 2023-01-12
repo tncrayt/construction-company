@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* .navbar-nav a:hover{
+    
+    transition: all .2s ease;
+    background-color: orange;
+     color:  white !important;
+} */
+
+.navbar-nav a:active {
+  color: #636e72 !important;
+}
+
+header > .container > .row > .col-6 > .row > #middle {
+  color: orange;
+  background-color: #dfe6e9;
+  border-radius: 9px;
+}
+
+.figure {
+  background-color: #dfe6e9;
+  border-radius: 30px;
+}
+
+.figure img {
+  background-color: #dfe6e9;
+}
+
+.top-header {
+  height: 50px;
+  background-color: black;
+}
+
+.top-header {
+  position: relative;
+}
+
+.under-nav {
+  background: transparent !important;
+  position: absolute;
+  top: 195px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  padding: 0;
+  overflow: hidden;
+}
+
+.top {
+  background: rgba(0, 0, 0, 0.05);
+  background: #040e26;
+  color: #999999;
+  z-index: 3;
+}
+.ftco-navbar-light .container {
+  width: 1110px;
+  margin: 0 auto;
+  padding: 0;
+  background: #040e26 !important;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item.active a {
+  background: #fc5e28;
+  color: #fff;
+}
+
+.ftco-navbar-light {
+  background: transparent !important;
+  position: absolute;
+  top: 10rem;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  padding: 0;
+  overflow: hidden;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+  font-size: 14px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* top head */
+.navbar-brand .bi {
+  font-size: 50px;
+  color: #fff;
+  background: #fc5e28;
+  padding: 4px;
+}
+
+.bi-send:before {
+  content: "\f106";
+}
+.navbar-brand span {
+  color: #000000;
+  display: block;
+  line-height: 1;
+}
+
+.navbar-brand span small {
+  display: block;
+  font-size: 11px;
+  color: #fc5e28;
+  font-weight: 700;
+}
+
+@media (max-width: 991.98px) {
+  .ftco-navbar-light {
+    background: #040e26 !important;
+    position: relative;
+    top: 0;
+    padding: 10px 20px;
+  }
+}
+
+.topper .text .hr span {
+  color: #000000;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.topper .text .con span:first-child {
+  color: #fc5e28;
+}
+
+.topper .text .con span {
+  font-weight: 600;
+  font-size: 13px;
+  color: #000000;
+}
+.navbar-brand span small {
+  display: block;
+  font-size: 11px;
+  color: #fc5e28;
+  font-weight: 700;
+}
+
+.social-media p a {
+  width: 35px;
+  height: 35px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-right: 2px;
+  border-radius: 50%;
+}
+
+.top span.bi {
+  color: #fc5e28;
+}
+
+.topper .text .con {
+  margin-bottom: 0;
+}
+
+.topper .text p {
+  margin-bottom: 0;
+}
+
+/* footer */
+
+.ftco-footer {
+  font-size: 16px;
+  background: #030918;
+  padding: 5em 0 0 0;
+  z-index: 0;
+  position: relative;
+  z-index: 0;
+}
+
+.ftco-footer .ftco-heading-2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+
+.ftco-footer p {
+  color: rgba(255, 255, 255, 0.5);
+}
+.ftco-footer .ftco-footer-widget ul li a {
+  color: rgba(255, 255, 255, 0.5);
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+.ftco-footer .ftco-footer-widget ul li {
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.ftco-footer .ftco-footer-widget ul {
+  margin: 0;
+  padding: 0;
+}
+
+.ftco-footer .ftco-footer-widget ul li a span {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.ftco-footer .bg-primary {
+  background: #030918 !important;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.ftco-intro {
+  color: rgba(255, 255, 255, 0.8);
+  z-index: 0;
+  overflow: hidden;
+}
+
+.ftco-intro .img {
+  padding: 3em;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+.ftco-intro .img .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  opacity: 0.8;
+  background: #040e26;
+  z-index: -1;
+}
+
+.ftco-intro h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn.btn-primary {
+  background: #fc5e28;
+  border: 1px solid #fc5e28 !important;
+  color: #fff !important;
+}
+
+.ftco-section {
+  padding: 7em 0;
+  position: relative;
+}
+
+.heading-section .subheading {
+  font-size: 12px;
+  display: block;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: #fc5e28;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.heading-section h2 {
+  line-height: 1.2;
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff !important;
+}
+
+.services-wrap {
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 3px;
+  background: #fff;
+}
+
+.services-wrap .text {
+  width: 100%;
+  text-align: center;
+  padding: 20px 5px;
+  position: relative;
+}
+
+.services-wrap .text .icon {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #fff;
+  margin: -65px auto 20px auto;
+}
+
+.services-wrap .text .icon i {
+  color: #fc5e28;
+  font-size: 50px;
+}
+
+.services-wrap .img {
+  width: 100%;
+  height: 220px;
+}
+
+.img,
+.blog-img,
+.user-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.ftco-section {
+  padding: 7em 0;
+  position: relative;
+}
+
+.contact-section .contact-form {
+  width: 100%;
+  border-radius: 5px;
+  background: #f8f9fa;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.contact-section .contact-form .form-control {
+  height: 36px;
+  background: #fff !important;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  border-radius: 2px;
+}
+
+.contact-section .contact-form .form-control {
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+
+.block-9 .form-control {
+  font-size: 15px;
+}
+
+.form-control {
+  height: 52px !important;
+  background: #fff !important;
+  color: #000000 !important;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.dbox {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.dbox .icon {
+  width: 50px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.05);
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border: 1px solid grey;
+}
+
+.dbox .text {
+  width: calc(100% - 50px);
+  padding-left: 15px;
+}
+
+.dbox .icon span {
+  font-size: 20px;
+  color: #fc5e28;
+}
+
+.dbox p {
+  margin-bottom: 0;
+  color: #fc5e28;
+}
+
+.dbox .text span {
+  display: block;
+  line-height: 1.2;
+  color: white;
+}
+
+.dbox p a {
+  color: #fc5e28;
+}
+
+.ftco-no-pb {
+  padding-top: 0 !important;
+}
+
+.blog-entry {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.block-20 {
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 250px;
+  width: 100%;
+  position: relative;
+  display: block;
+}
+
+.blog-entry .text {
+  position: relative;
+  border-top: 0;
+  border-radius: 2px;
+  width: 100%;
+  background: #fff;
+  padding: 20px 30px;
+}
+
+.blog-entry .text .heading {
+  font-size: 20px;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.btn.btn-secondary {
+  background: #040e26 !important;
+  border: 1px solid #040e26 !important;
+  color: #fff !important;
+}
+
+.blog-entry .text .heading a {
+  color: #000000;
+}
